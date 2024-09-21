@@ -1,14 +1,14 @@
-"homepage": "https://priyabhoomireddi.github.io/Calculator_App"
 {
   "name": "calculator-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://priyabhoomireddi.github.io/Calculator_App",
   "scripts": {
   "start": "vite",
   "build": "vite build",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"  
+  "deploy": "gh-pages -d dist"  
 }
 ,
   "dependencies": {
